@@ -1,0 +1,665 @@
+body{
+  position: relative;
+  top: 0;
+  left:0;
+  width: 100vw;
+  min-height: 100%;
+
+  font-family: 'Karla', sans-serif;
+}
+
+.front-page,.inner-page{
+  position: relative;
+  width: 1200px;
+  min-height: 100%;
+ margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.titlebar{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  width: 1200px;
+  height: 75px;
+  margin: 25px auto;
+  background-color: #fff;
+  z-index: 1;
+}
+.menu-package,.footer-menu-package{
+  position: relative;
+  width: 35%;
+  left: 20%;
+  top: -7px;
+
+}
+.sub-menu{
+  position: relative;
+  list-style-type:none;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+
+.footer-menu-package a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.headerBrand, .footerBrand{
+  position: relative;
+  width: 10%;
+  top: 30px;
+  left: 5%;
+}
+#checkbox{
+  position: absolute;
+  display: none;
+}
+.checkLabel{
+  position: absolute;
+  left: 70%;
+  cursor: pointer;
+  display: none;
+}
+
+.headerButton,.footerButton, .arrowMe{
+  position: relative;
+  left: 75%;
+  top: -50px;
+  height: 35px;
+  width: 100px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+.footerButton{
+  top: -180px;
+}
+
+
+
+.logo{
+  height: 12px;
+}
+
+.footer-title{
+  position: sticky;
+  left:0;
+  right: 0;
+  bottom: 0;
+  padding-top: 20px;
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color:#000;
+  color: #fff;
+}
+
+.socialMedia{
+  position: relative;
+  top: 100px;
+  left: 5%;
+  display: inline-block;
+}
+.facebook, .youtube, .twitter, .pinterest, .instagram{
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-menu-package{
+  top: -33px;;
+  width: 20%;
+}
+.footer-menu-package .sub-menu{
+  display: block;
+  line-height: 2.5;
+}
+
+.footerArrow{
+  position: relative;
+  left: 80%;
+  top:-28px;
+}
+
+.copyRight{
+  position: relative;
+  font-size: 12px;
+  left: 72%;
+  top: -120px;
+  opacity: 0.5;
+}
+
+/* top1 section///////////////////////////////////////// */
+
+.top1, .top2, .top3, .bottom1, .bottom2{
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 450px;
+
+}
+
+.left-window, .right-window{
+  position: relative;
+  top: -180px;
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top1 .left-window{
+  width: 36%;
+  height: 112%;
+  color: #fff;
+  background-color: #000;
+}
+.text-box{
+  position: relative;
+}
+.text-box p{
+  font-size: 12px;
+  opacity: 0.7;
+}
+.top1 .text-box{
+  width: 60%;
+  top: 60px;
+  margin: 0 auto;
+}
+
+.top1 .arrowMe{
+  top: 25px;
+  left: 0;
+}
+
+.top1 .right-window{
+  top: 0;
+  width: 64%;
+  background-image: url("../assets/home/desktop/create-and-share.jpg");
+
+}
+
+/* top2 section/////////////////////////////////////// */
+.top2{
+  top: 280px;
+}
+.top2 .left-window{
+  width: 65%;
+  background-image: url("../assets/home/desktop/beautiful-stories.jpg");
+
+}
+.top2 .right-window{
+  width: 35%;
+}
+.top2 h1, .top3 h1{
+  width: 60%;
+}
+.top2 .text-box{
+  top: -120px;
+  width: 80%;
+  margin: 0 auto;
+}
+.top2 .arrowMe, .top3 .arrowMe{
+  top: 10px;
+  left: 0;
+  width: 130px;
+  color: #000;
+  background-color: inherit;
+}
+
+/* top3 section ///////////////////////////////////// */
+
+.top3{
+
+  height: 550px;
+}
+.top3 .left-window{
+  width: 35%;
+  height: 100%;
+}
+
+.top3 .right-window{
+  top: 0;
+  width: 65%;
+  height: 100%;
+  background-image: url("../assets/home/desktop/designed-for-everyone.jpg");
+}
+
+.top3 .text-box{
+  top: 30px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* bottom1 section */
+.slide1, .slide2, .slide3, .slide4{
+  position: relative;
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide1{
+  background-image: url("../assets/stories/desktop/mountains.jpg");
+}
+.slide2{
+  background-image: url("../assets/stories/desktop/cityscapes.jpg");
+}
+.slide3{
+  background-image: url("../assets/stories/desktop/18-days-voyage.jpg");
+}
+.slide4{
+  background-image: url("../assets/stories/desktop/architecturals.jpg");
+}
+
+.caption{
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  left: 10%;
+  top: 280px;
+  display: inline-block;
+}
+.caption p{
+  font-size: 10px;
+}
+.bottom1 hr{
+
+  opacity: 0.7;
+}
+
+.bottom1 .arrowMe, .up2 .arrowMe, .up3 .arrowMe, .base1 .arrowMe, .base2 .arrowMe{
+  position: relative;
+  top: 15px;
+  left: 0;
+  background-color: inherit;
+  display: inline-block;
+}
+.arrow{
+  position: relative;
+  top: -30px;
+  left: 85%;
+}
+
+.bottom1 .arrow{
+  left: 150%;
+}
+
+/* bottom2 section///////////////////////////// */
+
+.bottom2-inner{
+  position: relative;
+  width: 33.33%;
+  display: inline-block;
+}
+.bottom2 .text-box{
+  position: relative;
+  top: 60px;
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bottom-icon2{
+  height: 30px;
+}
+.bottom-icon1,.bottom-icon3{
+  height: 50px;
+}
+
+/* inner page section /////////////////////////////////////////////////// */
+
+.up1, .up2, .up3, .base1, .base2{
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.up1{
+  height: 600px;
+  top: 100px;
+  background-image: url("../assets/stories/desktop/moon-of-appalacia.jpg");
+}
+
+.up1 .text-box{
+  position: absolute;
+  width: 20%;
+  left: 7%;
+  top: 85px;
+  color: #fff;
+}
+.up1 .arrowMe{
+  top: 10px;
+  left: 0;
+  width: 150px;
+  background-color:inherit;
+}
+
+/* up2 section ///////////////////////// */
+
+
+
+ .date{
+   position: relative;
+   margin: 0;
+   top: 15px;
+ }
+
+/* up3 section ////////////////////////////////////////// */
+
+.up3 .slide1{
+  background-image: url("../assets/stories/desktop/world-tour.jpg");
+}
+.up3 .slide2{
+  background-image: url("../assets/stories/desktop/unforeseen-corners.jpg");
+}
+.up3 .slide3{
+  background-image: url("../assets/stories/desktop/king-on-africa.jpg");
+}
+.up3 .slide4{
+  background-image: url("../assets/stories/desktop/trip-to-nowhere.jpg");
+}
+
+/* base1 section //////////////////////////////////////////// */
+
+.base1 .slide1{
+  background-image: url("../assets/stories/desktop/rage-of-the-sea.jpg");
+}
+.base1 .slide2{
+  background-image: url("../assets/stories/desktop/running-free.jpg");
+}
+.base1 .slide3{
+  background-image: url("../assets/stories/desktop/behind-the-waves.jpg");
+}
+.base1 .slide4{
+  background-image: url("../assets/stories/desktop/calm-waters.jpg");
+}
+
+/* base2 section/////////////////////////////////////////////////// */
+
+.base2 .slide1{
+  background-image: url("../assets/stories/desktop/milky-way.jpg");
+}
+.base2 .slide2{
+  background-image: url("../assets/stories/desktop/dark-forest.jpg");
+}
+.base2 .slide3{
+  background-image: url("../assets/stories/desktop/somwarpet.jpg");
+}
+.base2 .slide4{
+  background-image: url("../assets/stories/desktop/land-of-dreams.jpg");
+}
+
+
+@media (max-width: 768px){
+
+  .front-page,.inner-page{
+    width: 768px;
+  }
+  .titlebar, .footer-title{
+    width: 768px;
+  }
+
+  .top1 .left-window{
+    width: 64%;
+    height: 99%;
+
+  }
+
+  .top1 .right-window{
+
+    width: 36%;
+    background-position: -70px 0;
+
+  }
+
+
+  .top2 .left-window{
+    width: 35%;
+
+  }
+  .top2 .right-window{
+    width: 65%;
+  }
+
+  .top3 .left-window{
+    width: 60%;
+
+  }
+
+  .top3 .right-window{
+    width: 40%;
+    background-position: -120px 0;
+
+  }
+  .bottom1, .up2, .up3, .base1, .base2{
+    height: 900px;
+  }
+  .bottom1 .slide1, .bottom1 .slide2, .bottom1 .slide3, .bottom1 .slide4, .inner-slide{
+    width: 50%;
+    height: 50%;
+    vertical-align: top;
+  }
+
+
+
+
+
+.bottom2{
+  height: 800px;
+}
+  .bottom2-inner{
+
+    width: 65%;
+    display: block;
+  }
+
+  .bottom2 .text-box{
+    position: relative;
+    left: 30%;
+    top: 60px;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 60px;
+
+  }
+  .footer-title,.baseLine{
+
+    padding-top: 10px;
+
+  }
+
+  .footerBrand{
+
+    top: 20px;
+    left: -150px;
+  }
+
+  .footer-menu-package{
+    top: 10px;
+    width: 35%;
+    left: -205px;
+  }
+  .footer-menu-package .sub-menu{
+    display: inline-block;
+    line-height: 2.5;
+  }
+
+  .socialMedia{
+
+    top: 120px;
+    left: -150px;
+
+  }
+
+  .footerButton{
+
+    left: 40%;
+    top: -90px;
+
+  }
+
+  .copyRight{
+
+
+    left: 35%;
+    top: 0;
+    opacity: 0.5;
+  }
+
+  .up1 .text-box{
+
+    width: 30%;
+    left: 10%;
+  }
+
+}
+
+@media (max-width: 500px){
+
+  .front-page,.inner-page{
+    width: 500px;
+  }
+  .titlebar, .footer-title{
+    width: 500px;
+  }
+ .headerButton{
+   display: none;
+ }
+
+ .checkLabel{
+   display: inline-block;
+   left: 80%;
+ }
+
+ .menu-package{
+
+   width: 25%;
+   left: 85%;
+   top: 10px;
+
+ }
+ .sub-menu{
+
+   display:block;
+   margin-left: 20px;
+   line-height: 2;
+   cursor: pointer;
+ }
+
+ #checkbox:checked ~ .menu-package{
+   left: 65%;
+   transition-duration: 1s;
+ }
+.top1, .top2, .top3, .bottom1, .bottom2{
+  height: 900px;
+}
+ .top1{
+   display: flex;
+   flex-direction: column-reverse;
+ }
+
+ .top1 .left-window, .top1 .right-window{
+   width: 100%;
+   height: 50%;
+ }
+ .top1 .left-window{
+   top: 0;
+ }
+
+ .top2 .left-window, .top2 .right-window{
+   width: 100%;
+   height: 50%;
+ }
+ .top2 .right-window{
+   top: 0;
+ }
+
+.top3{
+  display: flex;
+  flex-direction: column-reverse;
+}
+ .top3 .left-window, .top3 .right-window{
+   width: 100%;
+   height: 50%;
+ }
+ .top3 .left-window{
+   top: 0;
+ }
+ .bottom1{
+   height: 1800px;
+ }
+ .bottom1 .slide1,.bottom1 .slide2, .bottom1 .slide3,.bottom1 .slide4{
+   width: 100%;
+   height: 25%;
+   vertical-align: top;
+ }
+ .footer-title{
+   height: 450px;
+
+ }
+
+ .footerBrand{
+   left: 30%;
+   top: 30px;
+ }
+
+ .footerBrand .logo{
+   height: 20px;
+ }
+ .socialMedia{
+   left: 28%;
+   top: 70px;
+ }
+ .social-icon{
+   height: 25px;
+   margin-right: 15px;
+ }
+
+ .footer-menu-package{
+   top: 90px;
+   left: 30%;
+ }
+ .footer-menu-package .sub-menu{
+   display: block;
+   font-size: 14px;
+   line-height: 2.5;
+ }
+
+
+ .footerButton{
+   top: 150px;
+ }
+ .copyRight{
+   top: 160px;
+ }
+
+ .up1 .text-box{
+
+   width: 50%;
+   left: 10%;
+ }
+ .up2, .up3, .base1, .base2{
+   height: 1800px;
+ }
+ .inner-slide{
+   display: block;
+   width: 100%;
+   height: 25%;
+ }
+}
